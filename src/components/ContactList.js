@@ -42,7 +42,6 @@ export class ContactList extends Component {
   }
 
   viewDetails(contact) {
-    //alert(JSON.stringify(contact));
     this.props.receiveContact(contact);
   }
 
